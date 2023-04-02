@@ -1,0 +1,117 @@
+Alchemist's Gold
+By Garry Francis
+For Z-code interpreters
+
+Solution by Garry Francis
+----------------------------------------
+This is a minimal solution. You'll need to EXAMINE lots of things for this solution to make sense. Scores are shown in parentheses as +A=B, where A is points earned and B is cumulative points earned.
+
+N
+E (there's an axe embedded in the tree stump)
+GET AXE
+W
+N
+(OPEN GATE) (it's locked)
+(X GATE) (can't climb it or jump over it)
+(X TREE) (it's an oak tree full of acorns)
+(GET ACORN) (they're out of reach)
+CHOP TREE WITH AXE (tree crushes fence, you throw broken axe away) (+10=10)
+GET ACORN
+S
+Z (repeat until squirrel appears)
+GIVE ACORN TO SQUIRREL (you can now take the squirrel)
+GET SQUIRREL (+10=20)
+N
+N
+TALK TO SHEPHERD (he'll help you if you give him a squirrel)
+GIVE SQUIRREL TO SHEPHERD (he gives you a map) (+10=30)
+X MAP (you can now enter the dense forest)
+E
+E (you clear the undergrowth and enter the dense forest)
+S
+E
+S
+E
+E
+N
+N
+E
+S
+E
+N
+N
+N
+W
+N
+N (you're out of the dense forest)
+N (you find the alchemist's house) (+10=40)
+E
+N
+(X TREE) (higher branches grow over house, lower branches are out of your reach)
+(CLIMB TREE) (you keep slipping down, you'll have to find another way)
+N
+W
+GET CRATE (you find a sack underneath it)
+(GET SACK)
+E
+S
+DROP CRATE
+STAND ON IT (you can now climb the tree)
+U (or CLIMB TREE) (+10=50)
+W (branch breaks & you fall onto roof of alchemist's house, there's no way back)
+(D) (the branch is in the way)
+PUSH BRANCH (it slides down the roof, clearing access to the chimney)
+D (you slide down the chimney, there's no way back)
+X SHELVING (you find a bottle of acid)
+GET ACID
+POUR ACID ON OAK DOOR (acid dissolves the lock) (+10=60)
+OPEN OAK DOOR
+W
+X TABLE (you find a candlestick & a key)
+GET CANDLE
+GET KEY
+E
+(X RUG) (there's a bump under it)
+(LOOK UNDER RUG) (you have to move everything off it first)
+MOVE LOG
+LOOK UNDER RUG (you find a trapdoor) (+10=70)
+UNLOCK TRAPDOOR WITH KEY
+OPEN IT
+LIGHT CANDLE (on the naked flames)
+D (+10=80)
+(GET GOLD) (you need a container)
+(PUT GOLD IN SACK) (it falls through the bottom, you'll need something stronger)
+GET POKER
+U
+BREAK IRON DOOR WITH POKER
+OPEN IT
+S
+E
+N
+GET CRATE
+S
+W
+N
+D
+PUT GOLD IN CRATE (+10=90)
+U
+S
+S
+S (you enter the dense forest)
+W
+W
+S
+S
+W
+W
+S
+W (you leave the dense forest)
+W (the shepherd has gone home to cook his squirrel stew)
+S
+S
+S (you hear the alchemist approaching from the south)
+E (you hear the alchemist to the west)
+Z (you can't hear him any more, he must have passed)
+W
+S (+10=100)
+***THE END***

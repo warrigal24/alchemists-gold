@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trizbort version="1.5.9.3">
+	<info>
+		<title>Alchemist's Gold</title>
+		<author>Garry Francis</author>
+	</info>
+	<map>
+		<room id="3" name="Northwest of House" subtitle="" x="-400" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="4" name="North of House" subtitle="" x="-280" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Wooden crate|(Canvas sack)</objects>
+		</room>
+		<room id="5" name="Northeast of House" subtitle="" x="-40" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="6" name="Roof of House" subtitle="" x="-280" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Broken branch</objects>
+		</room>
+		<room id="7" name="East of House" subtitle="" x="-40" y="0" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<line id="28">
+			<dock index="0" id="3" port="e" />
+			<dock index="1" id="4" port="w" />
+		</line>
+		<line id="31">
+			<dock index="0" id="5" port="s" />
+			<dock index="1" id="7" port="n" />
+		</line>
+		<room id="92" name="Alchemist's Gold (Garry Francis)" subtitle="" x="-600" y="-200" w="240" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="64" name="Den" subtitle="" x="-400" y="0" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Den|Window|Lounge chair|Side table|(Key)|(Candle)</objects>
+		</room>
+		<room id="65" name="Laboratory" subtitle="" x="-280" y="0" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Fireplace|Workbench|Iron door|Oak door|Shelving|Bottle of acid|Rug|(Trap door)</objects>
+		</room>
+		<room id="68" name="Basement" subtitle="" x="-160" y="0" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Gold</objects>
+		</room>
+		<room id="71" name="Southwest of House" subtitle="" x="-400" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="72" name="South of House" subtitle="" x="-280" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="73" name="Southeast of House" subtitle="" x="-40" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<line id="102">
+			<dock index="0" id="4" port="e" />
+			<dock index="1" id="5" port="w" />
+		</line>
+		<line id="113" style="dashed">
+			<dock index="0" id="64" port="e" />
+			<dock index="1" id="65" port="w" />
+		</line>
+		<line id="133" style="dashed" flow="oneWay" startText="D">
+			<dock index="0" id="6" port="s" />
+			<dock index="1" id="65" port="n" />
+		</line>
+		<line id="134" style="dashed" startText="D" endText="U">
+			<dock index="0" id="65" port="e" />
+			<dock index="1" id="68" port="w" />
+		</line>
+		<line id="180">
+			<dock index="0" id="72" port="e" />
+			<dock index="1" id="73" port="w" />
+		</line>
+		<line id="192">
+			<dock index="0" id="71" port="e" />
+			<dock index="1" id="72" port="w" />
+		</line>
+		<room id="231" name="Copyright © Garry Francis 2022" subtitle="" x="-140" y="800" w="180" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="232" name="Legend" subtitle="" x="-1000" y="-160" w="80" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="None" description="" roomFill="#FFFFFF" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="240" name="Start Room" subtitle="" x="-1000" y="-120" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="Solid" isDark="yes" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="241" name="Normal Room" subtitle="" x="-1000" y="-60" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<line id="30" style="dashed" startText="D" endText="U">
+			<dock index="0" id="8" port="se" />
+			<dock index="1" id="7" port="nw" />
+		</line>
+		<line id="1">
+			<dock index="0" id="7" port="s" />
+			<dock index="1" id="73" port="n" />
+		</line>
+		<line id="2" style="dashed">
+			<dock index="0" id="65" port="s" />
+			<dock index="1" id="72" port="n" />
+		</line>
+		<room id="8" name="Top of Tree" subtitle="" x="-160" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<line id="9" style="dashed" flow="oneWay">
+			<dock index="0" id="8" port="w" />
+			<dock index="1" id="6" port="e" />
+		</line>
+		<room id="10" name="Dark Room" subtitle="" x="-1000" y="0" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="11" name="Dense Forest" subtitle="" x="-520" y="240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="12" name="Dense Forest" subtitle="" x="-760" y="320" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="13" name="Dense Forest" subtitle="" x="-640" y="320" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="14" name="Dense Forest" subtitle="" x="-520" y="320" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="15" name="Dense Forest" subtitle="" x="-400" y="320" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="16" name="Dense Forest" subtitle="" x="-520" y="400" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="17" name="Dense Forest" subtitle="" x="-400" y="400" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="18" name="Dense Forest" subtitle="" x="-280" y="400" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="19" name="Dense Forest" subtitle="" x="-160" y="400" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="20" name="Dense Forest" subtitle="" x="-400" y="480" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="21" name="Dense Forest" subtitle="" x="-280" y="480" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="22" name="Dense Forest" subtitle="" x="-160" y="480" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="23" name="Dense Forest" subtitle="" x="-40" y="480" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="24" name="Dense Forest" subtitle="" x="-280" y="560" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="25" name="Dense Forest" subtitle="" x="-160" y="560" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="26" name="Dense Forest" subtitle="" x="-40" y="560" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="27" name="Dense Forest" subtitle="" x="-40" y="640" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="29" name="Dense Forest" subtitle="" x="-760" y="240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="32" name="Dense Forest" subtitle="" x="-640" y="240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="33" name="Dense Forest" subtitle="" x="-400" y="240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="34" name="Dense Forest" subtitle="" x="-280" y="240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="35" name="Dense Forest" subtitle="" x="-160" y="240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="36" name="Dense Forest" subtitle="" x="-40" y="240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="37" name="Dense Forest" subtitle="" x="-280" y="320" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="38" name="Dense Forest" subtitle="" x="-160" y="320" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="39" name="Dense Forest" subtitle="" x="-40" y="320" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="40" name="Dense Forest" subtitle="" x="-40" y="400" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="41" name="Dense Forest" subtitle="" x="-760" y="400" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="42" name="Dense Forest" subtitle="" x="-640" y="400" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="43" name="Dense Forest" subtitle="" x="-760" y="480" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="44" name="Dense Forest" subtitle="" x="-640" y="480" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="45" name="Dense Forest" subtitle="" x="-520" y="480" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="46" name="Dense Forest" subtitle="" x="-760" y="560" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="47" name="Dense Forest" subtitle="" x="-640" y="560" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="48" name="Dense Forest" subtitle="" x="-520" y="560" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="49" name="Dense Forest" subtitle="" x="-400" y="560" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="50" name="Dense Forest" subtitle="" x="-760" y="640" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="51" name="Dense Forest" subtitle="" x="-640" y="640" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="52" name="Dense Forest" subtitle="" x="-520" y="640" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="53" name="Dense Forest" subtitle="" x="-400" y="640" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="54" name="Dense Forest" subtitle="" x="-280" y="640" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="55" name="Dense Forest" subtitle="" x="-160" y="640" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="56" name="Dense Forest" subtitle="" x="-760" y="720" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="57" name="Dense Forest" subtitle="" x="-640" y="720" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="58" name="Dense Forest" subtitle="" x="-520" y="720" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="59" name="Dense Forest" subtitle="" x="-400" y="720" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="60" name="Dense Forest" subtitle="" x="-280" y="720" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="61" name="Dense Forest" subtitle="" x="-160" y="720" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="62" name="Dense Forest" subtitle="" x="-40" y="720" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="66" name="Path through Forest" subtitle="" x="-280" y="160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<line id="67" color="#FF0000">
+			<dock index="0" id="11" port="s" />
+			<dock index="1" id="14" port="n" />
+		</line>
+		<line id="69">
+			<dock index="0" id="12" port="e" />
+			<dock index="1" id="13" port="w" />
+		</line>
+		<line id="70">
+			<dock index="0" id="13" port="e" />
+			<dock index="1" id="14" port="w" />
+		</line>
+		<line id="74" color="#FF0000">
+			<dock index="0" id="14" port="s" />
+			<dock index="1" id="16" port="n" />
+		</line>
+		<line id="75" flow="oneWay">
+			<dock index="0" id="17" port="w" />
+			<dock index="1" id="16" port="e" />
+		</line>
+		<line id="76">
+			<dock index="0" id="15" port="s" />
+			<dock index="1" id="17" port="n" />
+		</line>
+		<line id="77" flow="oneWay">
+			<dock index="0" id="20" port="n" />
+			<dock index="1" id="17" port="s" />
+		</line>
+		<line id="78" flow="oneWay">
+			<dock index="0" id="19" port="w" />
+			<dock index="1" id="18" port="e" />
+		</line>
+		<line id="79" color="#008000">
+			<dock index="0" id="20" port="e" />
+			<dock index="1" id="21" port="w" />
+		</line>
+		<line id="80" flow="oneWay">
+			<dock index="0" id="21" port="n" />
+			<dock index="1" id="18" port="s" />
+		</line>
+		<line id="81" color="#008000" flow="oneWay">
+			<dock index="0" id="22" port="n" />
+			<dock index="1" id="19" port="s" />
+		</line>
+		<line id="82" color="#008000" flow="oneWay">
+			<dock index="0" id="21" port="s" />
+			<dock index="1" id="24" port="n" />
+		</line>
+		<line id="83" color="#008000" flow="oneWay">
+			<dock index="0" id="25" port="n" />
+			<dock index="1" id="22" port="s" />
+		</line>
+		<line id="84" color="#008000" flow="oneWay">
+			<dock index="0" id="24" port="e" />
+			<dock index="1" id="25" port="w" />
+		</line>
+		<line id="85" flow="oneWay">
+			<dock index="0" id="22" port="e" />
+			<dock index="1" id="23" port="w" />
+		</line>
+		<line id="86">
+			<dock index="0" id="23" port="s" />
+			<dock index="1" id="26" port="n" />
+		</line>
+		<line id="87">
+			<dock index="0" id="29" port="e" />
+			<dock index="1" id="32" port="w" />
+		</line>
+		<line id="88">
+			<dock index="0" id="32" port="e" />
+			<dock index="1" id="11" port="w" />
+		</line>
+		<line id="89" color="#FF0000">
+			<dock index="0" id="11" port="e" />
+			<dock index="1" id="33" port="w" />
+		</line>
+		<line id="90" color="#FF0000" flow="oneWay">
+			<dock index="0" id="34" port="w" />
+			<dock index="1" id="33" port="e" />
+		</line>
+		<line id="91">
+			<dock index="0" id="35" port="e" />
+			<dock index="1" id="36" port="w" />
+		</line>
+		<line id="93">
+			<dock index="0" id="14" port="e" />
+			<dock index="1" id="15" port="w" />
+		</line>
+		<line id="94" flow="oneWay">
+			<dock index="0" id="37" port="w" />
+			<dock index="1" id="15" port="e" />
+		</line>
+		<line id="95" color="#008000" flow="oneWay">
+			<dock index="0" id="38" port="w" />
+			<dock index="1" id="37" port="e" />
+		</line>
+		<line id="96">
+			<dock index="0" id="38" port="e" />
+			<dock index="1" id="39" port="w" />
+		</line>
+		<line id="97" color="#FF0000">
+			<dock index="0" id="41" port="e" />
+			<dock index="1" id="42" port="w" />
+		</line>
+		<line id="98" color="#FF0000">
+			<dock index="0" id="42" port="e" />
+			<dock index="1" id="16" port="w" />
+		</line>
+		<line id="99" flow="oneWay">
+			<dock index="0" id="18" port="w" />
+			<dock index="1" id="17" port="e" />
+		</line>
+		<line id="100" flow="oneWay">
+			<dock index="0" id="19" port="e" />
+			<dock index="1" id="40" port="w" />
+		</line>
+		<line id="101" flow="oneWay">
+			<dock index="0" id="43" port="e" />
+			<dock index="1" id="44" port="w" />
+		</line>
+		<line id="103" flow="oneWay">
+			<dock index="0" id="44" port="e" />
+			<dock index="1" id="45" port="w" />
+		</line>
+		<line id="104" flow="oneWay">
+			<dock index="0" id="20" port="w" />
+			<dock index="1" id="45" port="e" />
+		</line>
+		<line id="105" flow="oneWay">
+			<dock index="0" id="22" port="w" />
+			<dock index="1" id="21" port="e" />
+		</line>
+		<line id="106" color="#008000" flow="oneWay">
+			<dock index="0" id="46" port="e" />
+			<dock index="1" id="47" port="w" />
+		</line>
+		<line id="107">
+			<dock index="0" id="47" port="e" />
+			<dock index="1" id="48" port="w" />
+		</line>
+		<line id="108" flow="oneWay">
+			<dock index="0" id="49" port="w" />
+			<dock index="1" id="48" port="e" />
+		</line>
+		<line id="109" flow="oneWay">
+			<dock index="0" id="24" port="w" />
+			<dock index="1" id="49" port="e" />
+		</line>
+		<line id="110" flow="oneWay">
+			<dock index="0" id="25" port="e" />
+			<dock index="1" id="26" port="w" />
+		</line>
+		<line id="111">
+			<dock index="0" id="29" port="s" />
+			<dock index="1" id="12" port="n" />
+		</line>
+		<line id="112" flow="oneWay">
+			<dock index="0" id="41" port="n" />
+			<dock index="1" id="12" port="s" />
+		</line>
+		<line id="114" color="#FF0000" flow="oneWay">
+			<dock index="0" id="41" port="s" />
+			<dock index="1" id="43" port="n" />
+		</line>
+		<line id="115" color="#008000" flow="oneWay">
+			<dock index="0" id="43" port="s" />
+			<dock index="1" id="46" port="n" />
+		</line>
+		<line id="116" flow="oneWay">
+			<dock index="0" id="46" port="s" />
+			<dock index="1" id="50" port="n" />
+		</line>
+		<line id="117">
+			<dock index="0" id="32" port="s" />
+			<dock index="1" id="13" port="n" />
+		</line>
+		<line id="118" flow="oneWay">
+			<dock index="0" id="42" port="n" />
+			<dock index="1" id="13" port="s" />
+		</line>
+		<line id="119" flow="oneWay">
+			<dock index="0" id="44" port="n" />
+			<dock index="1" id="42" port="s" />
+		</line>
+		<line id="120" flow="oneWay">
+			<dock index="0" id="47" port="n" />
+			<dock index="1" id="44" port="s" />
+		</line>
+		<line id="121" color="#008000" flow="oneWay">
+			<dock index="0" id="47" port="s" />
+			<dock index="1" id="51" port="n" />
+		</line>
+		<line id="122" flow="oneWay">
+			<dock index="0" id="45" port="n" />
+			<dock index="1" id="16" port="s" />
+		</line>
+		<line id="123">
+			<dock index="0" id="45" port="s" />
+			<dock index="1" id="48" port="n" />
+		</line>
+		<line id="124" flow="oneWay">
+			<dock index="0" id="52" port="n" />
+			<dock index="1" id="48" port="s" />
+		</line>
+		<line id="125">
+			<dock index="0" id="33" port="s" />
+			<dock index="1" id="15" port="n" />
+		</line>
+		<line id="126" color="#008000" flow="oneWay">
+			<dock index="0" id="49" port="n" />
+			<dock index="1" id="20" port="s" />
+		</line>
+		<line id="127" color="#008000" flow="oneWay">
+			<dock index="0" id="53" port="n" />
+			<dock index="1" id="49" port="s" />
+		</line>
+		<line id="128" color="#008000" flow="oneWay">
+			<dock index="0" id="37" port="n" />
+			<dock index="1" id="34" port="s" />
+		</line>
+		<line id="129" flow="oneWay">
+			<dock index="0" id="37" port="s" />
+			<dock index="1" id="18" port="n" />
+		</line>
+		<line id="130" flow="oneWay">
+			<dock index="0" id="24" port="s" />
+			<dock index="1" id="54" port="n" />
+		</line>
+		<line id="131" flow="oneWay">
+			<dock index="0" id="38" port="n" />
+			<dock index="1" id="35" port="s" />
+		</line>
+		<line id="132" color="#008000" flow="oneWay">
+			<dock index="0" id="19" port="n" />
+			<dock index="1" id="38" port="s" />
+		</line>
+		<line id="135" flow="oneWay">
+			<dock index="0" id="25" port="s" />
+			<dock index="1" id="55" port="n" />
+		</line>
+		<line id="136">
+			<dock index="0" id="36" port="s" />
+			<dock index="1" id="39" port="n" />
+		</line>
+		<line id="137">
+			<dock index="0" id="39" port="s" />
+			<dock index="1" id="40" port="n" />
+		</line>
+		<line id="138">
+			<dock index="0" id="40" port="s" />
+			<dock index="1" id="23" port="n" />
+		</line>
+		<line id="139">
+			<dock index="0" id="26" port="s" />
+			<dock index="1" id="27" port="n" />
+		</line>
+		<line id="140">
+			<dock index="0" id="55" port="e" />
+			<dock index="1" id="27" port="w" />
+		</line>
+		<line id="141" flow="oneWay">
+			<dock index="0" id="54" port="e" />
+			<dock index="1" id="55" port="w" />
+		</line>
+		<line id="142" flow="oneWay">
+			<dock index="0" id="53" port="e" />
+			<dock index="1" id="54" port="w" />
+		</line>
+		<line id="143" color="#008000" flow="oneWay">
+			<dock index="0" id="52" port="e" />
+			<dock index="1" id="53" port="w" />
+		</line>
+		<line id="144">
+			<dock index="0" id="53" port="s" />
+			<dock index="1" id="59" port="n" />
+		</line>
+		<line id="145" flow="oneWay">
+			<dock index="0" id="54" port="s" />
+			<dock index="1" id="60" port="n" />
+		</line>
+		<line id="146">
+			<dock index="0" id="55" port="s" />
+			<dock index="1" id="61" port="n" />
+		</line>
+		<line id="147">
+			<dock index="0" id="27" port="s" />
+			<dock index="1" id="62" port="n" />
+		</line>
+		<line id="148">
+			<dock index="0" id="50" port="s" />
+			<dock index="1" id="56" port="n" />
+		</line>
+		<line id="149" flow="oneWay">
+			<dock index="0" id="57" port="n" />
+			<dock index="1" id="51" port="s" />
+		</line>
+		<line id="150" flow="oneWay">
+			<dock index="0" id="52" port="s" />
+			<dock index="1" id="58" port="n" />
+		</line>
+		<line id="151" flow="oneWay">
+			<dock index="0" id="51" port="w" />
+			<dock index="1" id="50" port="e" />
+		</line>
+		<line id="152" color="#008000" flow="oneWay">
+			<dock index="0" id="51" port="e" />
+			<dock index="1" id="52" port="w" />
+		</line>
+		<line id="153" flow="oneWay">
+			<dock index="0" id="34" port="e" />
+			<dock index="1" id="35" port="w" />
+		</line>
+		<line id="155">
+			<dock index="0" id="66" port="s" />
+			<dock index="1" id="34" port="n" />
+		</line>
+		<room id="63" name="End of Trail" subtitle="" x="-1000" y="560" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Gate|Fence|Acorn tree|(Acorn)|(Squirrel)</objects>
+		</room>
+		<room id="154" name="Pasture" subtitle="" x="-1000" y="480" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Pasture|Rock|Shepherd|Sheep|(Map)</objects>
+		</room>
+		<room id="156" name="Path through Forest" subtitle="" x="-880" y="480" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Path|Abandoned trailer</objects>
+		</room>
+		<room id="157" name="Trail" subtitle="" x="-1000" y="640" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Trail|(Squirrel)</objects>
+		</room>
+		<room id="158" name="Clearing" subtitle="" x="-880" y="640" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Clearing|Tree stump|Axe|(Squirrel)</objects>
+		</room>
+		<room id="159" name="Forest" subtitle="" x="-1000" y="720" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" isDark="yes" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Forest|Trees|(Squirrel)|(Alchemist)|(Bag of groceries)</objects>
+		</room>
+		<line id="160">
+			<dock index="0" id="154" port="e" />
+			<dock index="1" id="156" port="w" />
+		</line>
+		<line id="161" style="dashed">
+			<dock index="0" id="154" port="s" />
+			<dock index="1" id="63" port="n" />
+		</line>
+		<line id="162">
+			<dock index="0" id="63" port="s" />
+			<dock index="1" id="157" port="n" />
+		</line>
+		<line id="163">
+			<dock index="0" id="157" port="s" />
+			<dock index="1" id="159" port="n" />
+		</line>
+		<line id="164">
+			<dock index="0" id="157" port="e" />
+			<dock index="1" id="158" port="w" />
+		</line>
+		<line id="165" style="dashed">
+			<dock index="0" id="156" port="e" />
+			<dock index="1" id="43" port="w" />
+		</line>
+		<line id="166">
+			<dock index="0" id="72" port="s" />
+			<dock index="1" id="66" port="n" />
+		</line>
+		<line id="167">
+			<dock index="0" id="56" port="e" />
+			<dock index="1" id="57" port="w" />
+		</line>
+		<line id="168">
+			<dock index="0" id="57" port="e" />
+			<dock index="1" id="58" port="w" />
+		</line>
+		<line id="169">
+			<dock index="0" id="58" port="e" />
+			<dock index="1" id="59" port="w" />
+		</line>
+		<line id="170">
+			<dock index="0" id="59" port="e" />
+			<dock index="1" id="60" port="w" />
+		</line>
+		<line id="171">
+			<dock index="0" id="60" port="e" />
+			<dock index="1" id="61" port="w" />
+		</line>
+		<line id="172" flow="oneWay">
+			<dock index="0" id="62" port="w" />
+			<dock index="1" id="61" port="e" />
+		</line>
+		<room id="173" name="Route to alchemist's house" subtitle="" x="-940" y="60" w="160" h="40" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<room id="174" name="Route from alchemist's house" subtitle="" x="-940" y="100" w="176" h="40" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="175" color="#008000" flow="oneWay">
+			<point index="0" x="-1000" y="80" />
+			<dock index="1" id="173" port="w" />
+		</line>
+		<line id="176" color="#FF0000" flow="oneWay">
+			<point index="0" x="-1000" y="120" />
+			<dock index="1" id="174" port="w" />
+		</line>
+		<room id="177" name="THE END" subtitle="" x="-1000" y="800" w="80" h="40" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="" />
+		<line id="178" style="dashed" flow="oneWay">
+			<dock index="0" id="159" port="s" />
+			<dock index="1" id="177" port="n" />
+		</line>
+	</map>
+	<settings>
+		<colors>
+			<canvas>White</canvas>
+			<fill>#FFFF99</fill>
+			<border>Black</border>
+			<line>Black</line>
+			<selectedLine>Gold</selectedLine>
+			<hoverLine>DarkOrange</hoverLine>
+			<largeText>Black</largeText>
+			<smallText>Black</smallText>
+			<lineText>Black</lineText>
+			<grid>#F5F5F5</grid>
+		</colors>
+		<regions>
+			<Dark Name="Dark" TextColor="Black">Silver</Dark>
+			<Dead Name="Dead" TextColor="White">Red</Dead>
+			<NoRegion Name="NoRegion" TextColor="Black">White</NoRegion>
+			<Normal Name="Normal" TextColor="Black">#FFFF80</Normal>
+			<Underwater Name="Underwater" TextColor="Black">#80FFFF</Underwater>
+		</regions>
+		<fonts>
+			<room size="12">Arial</room>
+			<object size="12">Arial Narrow</object>
+			<line size="12">Arial Narrow</line>
+		</fonts>
+		<grid>
+			<snapTo>yes</snapTo>
+			<visible>yes</visible>
+			<showOrigin>yes</showOrigin>
+			<size>20</size>
+		</grid>
+		<lines>
+			<width>1</width>
+			<handDrawn>no</handDrawn>
+			<arrowSize>8</arrowSize>
+			<textOffset>4</textOffset>
+		</lines>
+		<rooms>
+			<darknessStripeSize>10</darknessStripeSize>
+			<objectListOffset>4</objectListOffset>
+			<connectionStalkLength>20</connectionStalkLength>
+			<preferredDistanceBetweenRooms>40</preferredDistanceBetweenRooms>
+			<defaultRoomName>Cave</defaultRoomName>
+		</rooms>
+		<ui>
+			<handleSize>8</handleSize>
+			<snapToElementSize>8</snapToElementSize>
+		</ui>
+		<keypadNavigation>
+			<creationModifier>control</creationModifier>
+			<unexploredModifier>alt</unexploredModifier>
+		</keypadNavigation>
+	</settings>
+</trizbort>
