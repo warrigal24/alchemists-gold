@@ -8,7 +8,7 @@ Of all the forms of alchemy practised throughout the ages, the best known is the
 
 After picking up a lead in the local tavern, you think you have worked out the location of the alchemist's house. After trudging through the forest for a day, you stop to get your bearings and have a rest. You feel like you're getting close.
 
-This is a traditional text adventure that was written for [ParserComp 2022](https://itch.io/jam/parsercomp-2022), 30 April to 30 June 2022. The game is hosted at [Alchemist's Gold](https://warrigal.itch.io/alchemists-gold).
+This is a traditional text adventure that was written for [ParserComp 2022](https://itch.io/jam/parsercomp-2022), 30 April to 30 June 2022.
 
 ## Release notes
 
